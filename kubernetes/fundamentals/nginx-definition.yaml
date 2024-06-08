@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx-yaml
+    method: fromcode
+  name: nginx-yaml
+spec:
+  containers:
+  - image: nginx
+    name: nginx-yaml
+    # resources: {} # empty resource requirements, it can be removed
+  # dnsPolicy: ClusterFirst # default value, it can be removed
+  # restartPolicy: Always # default value, it can be removed
+status: {}
