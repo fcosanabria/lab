@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+# Here we are defining a service called it-tools
+    it-tools:
+        # Using latest image
+        image: 'corentinth/it-tools:latest'
+        ports:
+            - '8080:80'
+        restart: unless-stopped
+        container_name: it-tools

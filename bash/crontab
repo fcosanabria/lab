@@ -1,0 +1,1 @@
+0 21 * * * cp -r /Users/piktonus97m/Documents/devonthink-databases/*.dtBase2 /Volumes/Home/devonthink-db-backup/
