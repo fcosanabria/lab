@@ -15,6 +15,7 @@ services:
     volumes:
       - ${UPLOAD_LOCATION}:/usr/src/app/upload
       - /etc/localtime:/etc/localtime:ro
+      - /home/immich/external:home/immich/external
     env_file:
       - stack.env
     ports:
